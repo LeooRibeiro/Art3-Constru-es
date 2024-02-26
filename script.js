@@ -1,10 +1,10 @@
 // Obtém os botões e os modais
-var usuarioBtn = document.getElementById("basicModalbtn");
-var adminBtn = document.getElementById("particularModalbtn");
-var empresaBtn = document.getElementById("empresaModalbtn");
-var usuarioModal = document.getElementById("usuarioModal");
-var adminModal = document.getElementById("adminModal");
-var empresaModal = document.getElementById("empresaModal");
+const usuarioBtn = document.getElementById("basicModalbtn");
+const adminBtn = document.getElementById("particularModalbtn");
+const empresaBtn = document.getElementById("empresaModalbtn");
+const usuarioModal = document.getElementById("usuarioModal");
+const adminModal = document.getElementById("adminModal");
+const empresaModal = document.getElementById("empresaModal");
 
 // Função para abrir o modal do usuário
 usuarioBtn.onclick = function() {
